@@ -40,7 +40,7 @@ Ultima actualización: 2023-03-01
 - Tener variedad en generos musicales 
 
 ## Background
-_Cuál es el contexto de este proyecto?_
+_Para este proyecto uno de las cosas que tratamos de solucionar dar a conocer mas informacion sobre la musica que escuchamos día a día ya que comun mente solo la oimos pasar en una playlist que tenemos en nuestros dispositivos y comunmente cuando queremos tener un poco de informacion esta no se encuentra de manera sencilla o de manera practica ,lo que quita tiempo y es un poco tedioso tener que estar de un lado a otro buscando informacion, 
 
 _Incluye recursos, como otros design docs si es necesario_
 
