@@ -1,11 +1,11 @@
-# TITULO DEL DESIGN DOC
-Link: [Link a este design doc](#)
+# All Music
+Link: [Link a este design doc](https://github.com/Aleidarodri/Proyecto/blob/main/README.md)
 
-Author(s): Charlie L
+Author(s): Diego Rulfo,Aleida Rodriguez  
 
-Status: [Draft, Ready for review, In Review, Reviewed]
+Status: Draft
 
-Ultima actualización: YYYY-MM-DD
+Ultima actualización: 2023-03-01
 
 ## Contenido
 - Goals
