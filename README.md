@@ -78,6 +78,6 @@ _Backend…_
 _Preocupaciones / trade-offs / tech debt_
 
 ## Métricas
--Python version 3.10.0
+- Python version 3.10.0
 - Visual Studio Code version 1.76
 -
