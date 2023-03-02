@@ -78,4 +78,6 @@ _Backend…_
 _Preocupaciones / trade-offs / tech debt_
 
 ## Métricas
-_Que información necesitas para validar antes de lanzar este feature?_
+-Python version 3.10.0
+- Visual Studio Code version 1.76
+-
