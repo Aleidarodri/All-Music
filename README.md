@@ -43,7 +43,7 @@ Ultima actualización: 2023-03-01
  Para este proyecto uno de las cosas que tratamos de solucionar dar a conocer mas informacion sobre la musica que escuchamos día a día ya que comun mente solo la oimos pasar en una playlist que tenemos en nuestros dispositivos y comunmente cuando queremos tener un poco de informacion esta no se encuentra de manera sencilla o de manera practica ,lo que quita tiempo y es un poco tedioso tener que estar de un lado a otro buscando informacion, [Dezzer](https://www.deezer.com/es/channels/new) es un catalogo de musica que constante mente va actulizado sus listas,mas este no tiene las palabras claves que All Music tiene para poder dar la informacion de cada una de las canciones que tenemos en una base de datos.
 
 ## Overview
-_Overview a alto nivel de tu propuesta_
+All music es un catalogo de musica creado para poder dar la informacion mas precisa de la música  
 
 _Esta sección debería ser entendible por nuevos miembros de tu equipo que no están relacionados al proyecto_
 
