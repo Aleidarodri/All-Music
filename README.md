@@ -27,20 +27,17 @@ Ultima actualización: 2023-03-01
 - [Otro link](#)
 
 ## Objetivo
- Se pretende realizar un catalgo de música con los detalles de diversas canciones,con el fin de poder conocer un poco mas de informacion al respecto de la música que escuchamos día a día.
-__
-_Incluye contexto para las personas que no están familiarizadas con el proyecto._
-_
-
+ Realizar un catalgo de música con los detalles de diversas canciones,con el fin de poder conocer un poco mas de informacion al respecto de la música que escuchamos día a día.
 
 
 ## Goals
 - Crear un Catalogo de musica que se este actualizando constantemente
-- Que sea un Catalogo que sea amigable con el usuario
-- Tener variedad en diferentes generos musicales 
--
+- Crear campos de informacion para los usuarios
+- 
+
 ## Non-Goals
-- Non-Goals
+- Que sea un Catalogo que sea amigable con el usuario
+- Tener variedad en generos musicales 
 
 ## Background
 _Cuál es el contexto de este proyecto?_
