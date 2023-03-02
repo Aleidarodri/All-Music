@@ -1,5 +1,5 @@
 # All Music
-Link: [Link a este design doc](https://github.com/Aleidarodri/Proyecto/blob/main/README.md)
+Link: [All Music](https://github.com/Aleidarodri/Proyecto/blob/main/README.md)
 
 Author(s): Diego Rulfo,Aleida Rodriguez  
 
@@ -27,18 +27,18 @@ Ultima actualización: 2023-03-01
 - [Otro link](#)
 
 ## Objetivo
-_ Se pretende realizar un catalgo de música con los detalles de diversas canciones,con el fin de poder conocer un poco mas de informacion al respecto de la música que escuchamos día a día.
-_Que y porque estamos haciendo esto?_
-
+ Se pretende realizar un catalgo de música con los detalles de diversas canciones,con el fin de poder conocer un poco mas de informacion al respecto de la música que escuchamos día a día.
 __
 _Incluye contexto para las personas que no están familiarizadas con el proyecto._
+_
 
-_Mantenlo corto, elabora en **Background, Overview y Detailed Design**_
 
-_Añade screenshots / mocks si lo ves necesario_
 
 ## Goals
-- Goals
+- Crear un Catalogo de musica que se este actualizando constantemente
+- Que sea un Catalogo que sea amigable con el usuario
+- Tener variedad en diferentes generos musicales 
+-
 ## Non-Goals
 - Non-Goals
 
