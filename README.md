@@ -52,15 +52,9 @@ _Pon detalles en la siguiente sección_
 
 ## Detailed Design
 
-
 ## Solution 1
-### Frontend
-### Backend
-
 
 ## Solution 2
-### Frontend
-### Backend
 
 
 ## Consideraciones
