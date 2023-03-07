@@ -6,11 +6,11 @@
     "endpoints":[
         {
             "url":"/list/genero",
-            "count":6
+            "limit":6
         },
         {
             "url":"/list/genero",
-            "count":8
+            "max":8
             
         }
     ]
