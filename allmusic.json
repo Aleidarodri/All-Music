@@ -1,0 +1,20 @@
+{
+    "nombre":"All Music",
+    "descripcion": "",
+    "url":["runing","sky"],
+    "precio":"free",
+    "endpoints":[
+        {
+            "url":"/list/genero",
+            "count":6
+        },
+        {
+            "url":"/list/genero",
+            "count":7
+            
+        }
+    ]
+
+
+
+}
