@@ -1,7 +1,7 @@
 {
     "nombre":"All Music",
-    "descripcion": "",
-    "url":["runing","sky"],
+    "descripcion": "none",
+    "url":["AllMusic.com"],
     "precio":"free",
     "endpoints":[
         {
@@ -10,7 +10,7 @@
         },
         {
             "url":"/list/genero",
-            "count":7
+            "count":8
             
         }
     ]
