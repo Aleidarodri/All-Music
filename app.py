@@ -4,6 +4,7 @@
 
 
 from flask import Flask
+import json
 
 app = Flask(__name__)
 
@@ -16,6 +17,15 @@ def main():
 @app.route("/bye")
 def adios():
     return "bye bye"
+
+
+@app.route("/about")
+def about():
+
+    f = open('allmusic.json')
+    data = json.load(f)
+    f.close()
+    return data
 
 
 if __name__ == '__main__':
