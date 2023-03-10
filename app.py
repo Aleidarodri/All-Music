@@ -1,6 +1,6 @@
 # python3 -m venv venv
 # source virtual/bin/active
-# flask --app
+# flask --app app run -h ip
 
 
 from flask import Flask
