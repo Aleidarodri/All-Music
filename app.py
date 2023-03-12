@@ -31,9 +31,13 @@ def listar():
     cursor = mysql.connection.cursor()
     sqlQuery = "SELECT * from canciones"
     cursor.execute(sqlQuery)
-    canciones = cursor.fetchall()
-    response = jsonify(canciones=canciones,
-                       mensaje="Canciones listadas :)")
+    data = cursor.fetchall()
+    canciones = []
+    for fila in data:
+        cancion = {"codigo": fila[0], "nombre": fila[1], "genero": fila[2]}
+        canciones.append(cancion)
+    response = jsonify({'canciones': canciones,
+                       'mensaje': "Canciones listadas :)"})
     cursor.close()
     return response
 
