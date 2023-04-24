@@ -5,16 +5,32 @@
     "precio":"free",
     "endpoints":[
         {
-            "url":"/list/genero",
+            "url":"/song",
+            "method": "GET",
             "limit":6
         },
         {
-            "url":"/list/genero",
-            "max":8
-            
+            "url":"/singer",
+            "method": "GET",
+            "limit":6
+        },
+        {
+            "url":"/author",
+            "method": "GET",
+            "limit":6
+        },
+        {
+            "url":"/about",
+            "method": "GET",
+            "limit":6
+        },
+        {
+            "url":"/login",
+            "method": "POST"
+        },
+        {
+            "url":"/signup",
+            "method": "POST"
         }
     ]
-
-
-
 }
