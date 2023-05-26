@@ -15,23 +15,28 @@ from werkzeug.security import generate_password_hash, check_password_hash
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Eso_Tilin'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./AllMusic.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123456@localhost:3306/allmusic'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 db = SQLAlchemy(app)
+with app.app_context():
+    db.create_all()
 
 
 class Users(db.Model):
     """Modelo para los usuarios registrados"""
-    id = db.Column(db.Integer, primary_key=True, nullable=False)
+    __tablename__ = 'users'
+    id = db.Column(db.Integer, primary_key=True,
+                   nullable=False, auto_increment=True)
     public_id = db.Column(db.String(50), unique=True, nullable=False)
     name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(70), unique=True, nullable=False)
-    password = db.Column(db.String(80), nullable=False)
+    password = db.Column(db.String(256), nullable=False)
 
 
 class Authors(db.Model):
     """Modelo para los autores de las canciones"""
+    __tablename__ = 'authors'
     id = db.Column(db.Integer, primary_key=True)
     artistic_name = db.Column(db.String(50))
     nationality = db.Column(db.String(50), nullable=False)
@@ -41,6 +46,7 @@ class Authors(db.Model):
 
 class Artists(db.Model):
     """Modelo para los artistas de las canciones"""
+    __tablename__ = 'artists'
     id = db.Column(db.Integer, primary_key=True)
     artistic_name = db.Column(db.String(50))
     nationality = db.Column(db.String(50), nullable=False)
@@ -50,6 +56,7 @@ class Artists(db.Model):
 
 class Songs(db.Model):
     """Modelo para las canciones"""
+    __tablename__ = 'songs'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
     genre = db.Column(db.String(30), nullable=False)
@@ -97,7 +104,7 @@ def token_required(func):
 
 @app.route('/user', methods=['GET'])
 @token_required
-def get_all_users():
+def get_all_users(self):
     """Endpoint para obtener todos los usuarios registrados"""
     users = Users.query.all()
     output = []
@@ -178,7 +185,7 @@ def signup():
 
 @app.route("/author")
 @token_required
-def get_authors():
+def get_authors(self):
     """Endpoint para obtener todos los autores"""
     authors = Authors.query.all()
     output = []
@@ -194,7 +201,7 @@ def get_authors():
 
 @app.route("/artist")
 @token_required
-def get_artists():
+def get_artists(self):
     """Endpoint para obtener todos los artistas"""
     artists = Artists.query.all()
     output = []
@@ -210,7 +217,7 @@ def get_artists():
 
 @app.route("/song")
 @token_required
-def get_songs():
+def get_songs(self):
     """Endpoint para obtener todas las canciones"""
     songs = Songs.query.all()
     output = []
